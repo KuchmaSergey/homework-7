@@ -2,24 +2,6 @@
 
 
 
-.footer {
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-.wrapper {
-    display: flex;
-    justify-content: space-between;
-}
-.footer .logofot {
-    display: inline-block;
-    margin-bottom: 20px;
-}
-.footer-item:not(:last-child) {
-    margin-bottom: 9px;
-}
-.dark-bg {
-    background-color: var(--dark-bg-cl);
-}
 .mail-form {
     background-color: transparent;
     width: 310px;
@@ -53,11 +35,11 @@
 .join-icons {
     width: 20px;
     height: 20px;
-    fill: var(--white-cl);
+    fill: var($white-cl);
 }
 .join-circle:hover,
 .join-circle:focus {
-  background-color: var(--accent-cl);
+  background-color: var($accent-cl);
 }
 .join-title,
 .connect {
@@ -68,7 +50,7 @@
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--white-cl);
+    color: var($white-cl);
 }
 .send-icon {
     position: absolute;
@@ -76,5 +58,5 @@
     right: 28px;
     width: 24px;
     height: 24px;
-    fill: var(--white-cl);
+    fill: var($white-cl);
 }

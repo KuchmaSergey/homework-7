@@ -1,9 +1,9 @@
 .header-line {
-    border-bottom: 1px solid var(--header-line);
+    border-bottom: 1px solid $header-line;
     padding-bottom: 24px;
 }
 .header {
-    background-color: var(--white-cl);
+    background-color: var($white-cl);
     margin-top: 24px;
     margin-bottom: 24px;
 }
