@@ -45,14 +45,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
- .clients-box:hover,
- .clients-box:focus {
+
+ &:hover,
+ &:focus {
     border: 1px solid var($accent-cl)
-}
-.clients-box:hover .client-svg,
-.clients-box:hover .client-svg,
-.clients-box:focus .client-svg,
-.clients-box:focus .client-svg {
+ }
+ &:hover .client-svg,
+ &:hover .client-svg,
+ &:focus .client-svg,
+ &:focus .client-svg {
     fill: var($accent-cl);
-} 
+ }
+}

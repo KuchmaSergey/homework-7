@@ -1,7 +1,4 @@
 
-
-
-
 .mail-form {
     background-color: transparent;
     width: 310px;
@@ -31,16 +28,18 @@
     justify-content: center;
     align-items: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+ &:hover,
+ &:focus {
+  background-color: var($accent-cl);
+ }
 }
 .join-icons {
     width: 20px;
     height: 20px;
     fill: var($white-cl);
 }
-.join-circle:hover,
-.join-circle:focus {
-  background-color: var($accent-cl);
-}
+
 .join-title,
 .connect {
     margin-top: 12px;
